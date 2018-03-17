@@ -21,6 +21,7 @@ public class BeforeMethodAfterMethod {
 		 System.out.println("launching chrome browser");
 		  System.setProperty("webdriver.chrome.driver", driverPath);
 		  driver = new ChromeDriver();
+		  System.out.println("launching chrome browser");
 	}
   @BeforeMethod
   public void verifyHomepageTitle() {
